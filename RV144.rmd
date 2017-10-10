@@ -51,7 +51,8 @@ rownames(results) <- c("none","aids")
 ```{r}
 barchartGC(results,type = "percent")
 ```
-
+  
+The boxplot shows that the vaccine group fell within 50% for non-aids ans 40% with aids. On the other hand, the placebo group fell within the 50% of non-aids and 60% with aids. 
 ### Numerical Results
 
 <!--Display numerical evidence as to the effectiveness of the vaccine with explanations !--> 
