@@ -62,7 +62,7 @@ colPerc(results)
 rowPerc(results)
 ```
 
-
+According to the numerical results, the vaccine group demonstrates 40 people got aids and the placebo group shows that 59.2 got aids. The original assumption was that it would be 50- 50.   
 
 
 ## Inferential results
@@ -70,7 +70,7 @@ rowPerc(results)
 <!--Display inferential evidence as to the effectiveness of the vaccine with explanations and interpretations!-->
 
 ```{r}
-chisqtestGC(results, graph = TRUE)
+chisqtestGC(results, graph = TRUE,verbose = T)
 ```
 ```{r}
 fisher.test(results)
