@@ -45,6 +45,7 @@ rownames(results) <- c("none","aids")
 
 ## Results
 <!-- You are to add descriptive comments to explain to the reader what the plot is showing !-->
+The numerical data called people and the categoricalare the lacebo and vaccine.The boxplot bar graph shows that the vaccine group fell within 50% for non-aids and 40% with aids. On the other hand, the placebo group fell within the 50% of non-aids and 60% with aids.Therefore the vaccine worked based on this data being presented in the results of research project.
 
 ### Graphical results
 <!--Display graphical evidence as to the effectiveness of the vaccine with explanations!-->
@@ -52,7 +53,7 @@ rownames(results) <- c("none","aids")
 barchartGC(results,type = "percent")
 ```
   
-The boxplot shows that the vaccine group fell within 50% for non-aids ans 40% with aids. On the other hand, the placebo group fell within the 50% of non-aids and 60% with aids. 
+The boxplot bar graph shows that the vaccine group fell within 50% for non-aids and 40% with aids. On the other hand, the placebo group fell within the 50% of non-aids and 60% with aids. 
 ### Numerical Results
 
 <!--Display numerical evidence as to the effectiveness of the vaccine with explanations !--> 
@@ -62,7 +63,7 @@ colPerc(results)
 rowPerc(results)
 ```
 
-According to the numerical results, the vaccine group demonstrates 40 people got aids and the placebo group shows that 59.2 got aids. The original assumption was that it would be 50- 50.   
+According to the numerical results, the vaccine group demonstrates 40 people got aids and the placebo group shows that 59.2 got aids. The original assumption was that it would be 50-50. Based on 
 
 
 ## Inferential results
