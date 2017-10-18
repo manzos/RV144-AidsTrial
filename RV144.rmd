@@ -78,5 +78,5 @@ According to the chitestGC the graph result shows that counts expected by null f
 
 ## Conclusions
 
-
+In the end all the numerical results and graphical results indicate that the vaccine was effective by 51 patients who recived the vaccine. the expected null count for the vaccine patients was 62.5. the chi-square contributions for the aids was 2.12, which shows that the true odds ration is not equal to 1.All inall, the vaccine is 40% effective. 
 <Summarise your results as to the effectiveness of the vaccine with explanations that could be understood by your mom>
