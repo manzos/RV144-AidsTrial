@@ -45,15 +45,15 @@ rownames(results) <- c("none","aids")
 
 ## Results
 <!-- You are to add descriptive comments to explain to the reader what the plot is showing !-->
-The numerical data called people and the categoricalare the lacebo and vaccine.The boxplot bar graph shows that the vaccine group fell within 50% for non-aids and 40% with aids. On the other hand, the placebo group fell within the 50% of non-aids and 60% with aids.Therefore the vaccine worked based on this data being presented in the results of research project.
+
 
 ### Graphical results
 <!--Display graphical evidence as to the effectiveness of the vaccine with explanations!-->
 ```{r}
 barchartGC(results,type = "percent")
 ```
-  
-The boxplot bar graph shows that the vaccine group fell within 50% for non-aids and 40% with aids. On the other hand, the placebo group fell within the 50% of non-aids and 60% with aids. 
+  The boxplot bar graph shows that the vaccine group fell within 50% for non-aids and 40% with aids. On the other hand, the placebo group fell within the 50% of non-aids and 60% with aids.Therefore the vaccine worked based on this data being presented in the results of research project.
+
 ### Numerical Results
 
 <!--Display numerical evidence as to the effectiveness of the vaccine with explanations !--> 
@@ -62,9 +62,7 @@ The boxplot bar graph shows that the vaccine group fell within 50% for non-aids 
 colPerc(results)
 rowPerc(results)
 ```
-
-According to the numerical results, the vaccine group demonstrates 40 people got aids and the placebo group shows that 59.2 got aids. The original assumption was that it would be 50-50. Based on 
-
+The numerical data called people and the categorical are the placebo and vaccine.The boxplot bar graph shows that the vaccine group fell within 50% for non-aids and 40% with aids. On the other hand, the placebo group fell within the 50% of non-aids and 60% with aids.Therefore the vaccine worked based on this data being presented in the results of research project.
 
 ## Inferential results
 
@@ -76,8 +74,9 @@ chisqtestGC(results, graph = TRUE,verbose = T)
 ```{r}
 fisher.test(results)
 ```
-
+According to the chitestGC the graph result shows that counts expected by null for the vacine resulted in 62.5 with aids. And then, the placebo results 62.5.This being the odds ratio is not equal to 1.On the other had, the actual result shows that 51 vaccine patients got aids and 74 placebo patients got aids.Based on this evidence the hypothises is 2.12 which i not equal to 1. 
 
 ## Conclusions
+
 
 <Summarise your results as to the effectiveness of the vaccine with explanations that could be understood by your mom>
